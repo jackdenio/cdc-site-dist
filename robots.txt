@@ -1,0 +1,48 @@
+# Robots.txt - Colégio Dona Clara
+# Configuração otimizada para evitar rate limiting
+
+# Permitir todos os bots principais
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 2
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: WhatsApp
+Allow: /
+Crawl-delay: 2
+
+# Permitir todos os outros bots com delay
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://donaclara.com.br/site2/sitemap.xml
+
+# Recursos críticos
+Allow: /css/
+Allow: /js/
+Allow: /uploads/
+Allow: /favicon.ico
+
+# Bloquear recursos desnecessários
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /.env
+Disallow: /package.json
+Disallow: /package-lock.json

@@ -1,0 +1,1 @@
+import{j as a}from"./react-core-DHHqMHAI.js";import{G as s}from"./InformationsStubPage-CSl0KsD_.js";import"./gallery-M8qwidzj.js";import"./ui-components-BTIQ8auT.js";import"./react-dom-DCJzcTvd.js";import"./utils-uFSRKTsX.js";const o=()=>a.jsx(s,{title:"Guia da Família",subtitle:"Informações essenciais para acompanhar a vida escolar"});export{o as default};

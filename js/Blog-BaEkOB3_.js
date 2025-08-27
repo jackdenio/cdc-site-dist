@@ -1,0 +1,1 @@
+import{j as o}from"./react-core-DHHqMHAI.js";import{S as a}from"./StubPage-DczZbusZ.js";const e=()=>o.jsx(a,{title:"Blog",subtitle:"Novidades, artigos e informações sobre educação e o Colégio Dona Clara"});export{e as default};
